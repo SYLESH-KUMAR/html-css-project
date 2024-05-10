@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .nav-links li,
+  .nav-btns li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child,
+  .nav-btns li:last-child {
+    margin-right: 0;
+  }
+  
+  .logo img {
+    max-width: 100px;
+  }
+  
+  .header h1,
+  .header h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+  }
+  
+  .button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  p {
+    background-image: url('image.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-list {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links,
+    .nav-btns {
+      margin-top: 10px;
+    }
+  
+    .nav-links li,
+    .nav-btns li {
+      display: block;
+      margin: 10px 0;
+    }
+
+  
+    .header h1 {
+      font-size: 28px;
+    }
+  
+    .header h2 {
+      font-size: 20px;
+    }
+  }
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #292927;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #894226;
+    animation: forwards;
+  }
+
+  
+  
+  
+   
+
+
+
+   
